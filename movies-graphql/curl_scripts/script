@@ -1,0 +1,4 @@
+curl -X \
+POST -H "Content-Type: application/json" \
+--data '{ "query": "{ movies { name, genre } }" }' \
+http:/localhost:4040/graphql
